@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button renders text 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      Array [
+        Object {
+          "borderRadius": 10,
+          "marginHorizontal": 10,
+          "minWidth": 145,
+          "paddingHorizontal": 40,
+          "paddingVertical": 15,
+        },
+        Object {
+          "backgroundColor": "#6BC1E9",
+        },
+      ],
+    ]
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 22,
+        "textAlign": "center",
+      }
+    }
+  >
+    Fangorn
+  </Text>
+</View>
+`;
+
+exports[`button renders when disabled 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      Array [
+        Object {
+          "borderRadius": 10,
+          "marginHorizontal": 10,
+          "minWidth": 145,
+          "paddingHorizontal": 40,
+          "paddingVertical": 15,
+        },
+        Object {
+          "backgroundColor": "#444444",
+        },
+      ],
+    ]
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#FFF",
+        "fontSize": 22,
+        "textAlign": "center",
+      }
+    }
+  >
+    Fangorn
+  </Text>
+</View>
+`;
+
+exports[`renders HomeScreen 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#A2E4F9",
+      "flex": 1,
+      "justifyContent": "space-around",
+      "paddingHorizontal": 30,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#000",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "textAlign": "center",
+      }
+    }
+  >
+    Welcome to the Trivia Challenge!
+  </Text>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000",
+          "fontSize": 22,
+          "marginBottom": 50,
+          "textAlign": "center",
+        }
+      }
+    >
+      You will be presented with 10 True or False questions.
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#000",
+          "fontSize": 22,
+          "marginBottom": 50,
+          "textAlign": "center",
+        }
+      }
+    >
+      Can you score 100%?
+    </Text>
+  </View>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hasTVPreferredFocus={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        Array [
+          Object {
+            "borderRadius": 10,
+            "marginHorizontal": 10,
+            "minWidth": 145,
+            "paddingHorizontal": 40,
+            "paddingVertical": 15,
+          },
+          Object {
+            "backgroundColor": "#444444",
+          },
+        ],
+      ]
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#FFF",
+          "fontSize": 22,
+          "textAlign": "center",
+        }
+      }
+    >
+      BEGIN
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders QuizScreen 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#A2E4F9",
+      "flex": 1,
+      "justifyContent": "space-around",
+      "paddingHorizontal": 60,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#000",
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "marginBottom": 40,
+        "textAlign": "center",
+      }
+    }
+  >
+    Lemons
+  </Text>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "padding": 25,
+        }
+      }
+    >
+      How many lemons are too many?
+    </Text>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#000",
+        "fontSize": 21,
+        "marginBottom": 50,
+        "textAlign": "center",
+      }
+    }
+  >
+    3
+    /
+    10
+  </Text>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    collapsable={undefined}
+    hitSlop={undefined}
+    isTVSelectable={true}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID={undefined}
+    tvParallaxProperties={undefined}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#6BC1E9",
+          "borderRadius": 10,
+          "paddingHorizontal": 40,
+          "paddingVertical": 15,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#FFF",
+            "fontSize": 22,
+          }
+        }
+      >
+        BEGIN
+      </Text>
+    </View>
+  </View>
+</View>
+`;

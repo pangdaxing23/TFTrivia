@@ -1,0 +1,19 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["standard", "standard-react"],
+    "plugins": [
+        "react",
+        "react-native",
+        "flowtype"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "comma-dangle": ["error", "always-multiline"]
+    },
+    "env": {
+        "jest": true
+    },
+    "globals": {
+        "fetch": true
+    }
+}
